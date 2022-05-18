@@ -1,6 +1,6 @@
 import Header from "./Header";
 import React from "react";
-import '../App.css'
+import '../styles.css'
 
 const Content = () => {
 	
@@ -13,10 +13,12 @@ const Content = () => {
 					<div className="small_title">Octoprint projects</div>
 					<div className="list_wrapper">
 						<ul>
-							<li><a href="https://github.com/iFrostizz/OctoPrint-EasyServo" target="_blank"><code>Easyservo</code></a>:
+							<li><a href="https://github.com/iFrostizz/OctoPrint-EasyServo" target="_blank"
+										 rel="noreferrer"><code>Easyservo</code></a>:
 								mount servo motors in the interface
 							</li>
-							<li><a href="https://github.com/iFrostizz/OctoPrint-CalibrationCompanion" target="_blank"><code>Calibration
+							<li><a href="https://github.com/iFrostizz/OctoPrint-CalibrationCompanion" target="_blank"
+										 rel="noreferrer"><code>Calibration
 								companion</code></a>:
 								calibrate your 3D printer in few clicks
 							</li>
@@ -25,13 +27,13 @@ const Content = () => {
 					<div className="small_title">Web3 projects</div>
 					<div className="list_wrapper">
 						<ul>
-							<li><a href="https://cryptobrokesquad.xyz/" target="_blank"><code>Cryptobroke</code></a>:
+							<li><a href="https://cryptobrokesquad.xyz/" target="_blank" rel="noreferrer"><code>Cryptobroke</code></a>:
 								NFT's for the brokest
 							</li>
-							<li><a href="https://www.betswirl.com/" target="_blank"><code>Betswirl</code></a>:
+							<li><a href="https://www.betswirl.com/" target="_blank" rel="noreferrer"><code>Betswirl</code></a>:
 								a decentralized gaming platform that I've been developing staking contracts on
 							</li>
-							<li><a href="https://sparkies.io/" target="_blank"><code>Sparkies</code></a>:
+							<li><a href="https://sparkies.io/" target="_blank" rel="noreferrer"><code>Sparkies</code></a>:
 								an NFT marketplace running on the Velas blockchain
 							</li>
 						</ul>
@@ -40,7 +42,7 @@ const Content = () => {
 																													 className="small_emoji" /*alt="building"*//></div>
 					<div className="list_wrapper">
 						<ul>
-							<li><a href="https://github.com/iFrostizz/fether" target="_blank"><code>Fether</code></a>:
+							<li><a href="https://github.com/iFrostizz/fether" target="_blank" rel="noreferrer"><code>Fether</code></a>:
 								Hack and solve Ethernaut challenges using foundry
 							</li>
 						</ul>
