@@ -3,6 +3,7 @@ import {ThemeContext} from "../contexts/ColorMode";
 import {IconButton} from "@mui/material";
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
+import '../App.css'
 
 const Header = () => {
 	const {isDarkMode, toggleDarkMode} = useContext(ThemeContext)
